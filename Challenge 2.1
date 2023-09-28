@@ -1,0 +1,28 @@
+Class Bank account:
+def_init_(self,account_number,account_holder_name,initial_balance=0.0):
+self._account_number=account _number
+self._account_holder_name=account_holder_name
+self._account_balance=initial_balance
+def deposit(self,amount):
+if amount>0:
+self._account_balance+=amount
+#self._account_balance=self._account_balance+amountelf._
+print("deposited ₹{}.new balance:₹{}". format (amount,self._account_balance))
+else:
+print("invalid deposit amount.")
+def withdraw(salf.amount):
+if amount>0 and amount<=self._account_balance:
+self._account_balance=amount
+#self._account_balance=self._account_balance_amount
+print("withdraw ₹{}.new balance:₹{}".format(amount,self._account_balance))
+else:
+print("invalid withdrawal amount.or insuffient balance.")
+def display _balance(self):
+print("account balance for{}(account #{}):₹{}".format(self_account_holder_name,self._account_number,self_account_balance))
+#create an instance of the bank account class account _bankaccount (account _number="123456789", account_holder_name="hariprabu",initial_balance=5000.0)
+#test deposit and withdrawal functionality
+account. display _balance ()
+account. deposit (500.0)
+account. withdraw (200.0)
+account. withdraw (20000.0)
+account. display _balance()
